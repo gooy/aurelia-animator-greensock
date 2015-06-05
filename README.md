@@ -1,27 +1,27 @@
-# aurelia-animator-velocity
+# aurelia-animator-greensock
 
-An implementation of the abstract Animator interface from templating which enables animations using [velocity](http://velocityjs.org).
+An implementation of the abstract Animator interface from templating which enables animations using [GSAP](http://greensock.com/).
 
 ## Installation
 
 To use it install it into your project.
 
 ```javascript
-jspm install gooy/aurelia-animator-velocity
+jspm install gooy/aurelia-animator-greensock
 ```
 
 And register it as a plugin with aurelia.
 
 ```javascript
-aurelia.use.plugin('gooy/aurelia-animator-velocity');
+aurelia.use.plugin('gooy/aurelia-animator-greensock');
 ```
 
-## [Demo & Documentation](https://gooy.github.io/aurelia-animator-velocity)
+## [Demo & Documentation](https://gooy.github.io/aurelia-animator-greensock)
 
 ## Dependencies
 
 * [aurelia-templating](https://github.com/aurelia/templating)
-* [velocity](https://github.com/julianshapiro/velocity)
+* [greensock](https://github.com/greensock/GreenSock-JS)
 * [jsol](https://github.com/daepark/JSOL)
 
 ## Platform Support
@@ -88,4 +88,4 @@ To run the demo website, first ensure that you have followed the steps above in 
     ```shell
     gulp watch
     ```
-2. You can now see the demo website at [http://localhost:9000](http://localhost:9000)
+2. The demo website can now be seen at [http://localhost:9000](http://localhost:9000)
